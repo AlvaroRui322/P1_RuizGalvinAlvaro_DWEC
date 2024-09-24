@@ -11,10 +11,29 @@ Dentro de la arquitectura cliente - servidor existen 3 tipos:
 - Arquitectura de tres capas: Se compone de una capa para el cliente, otra para el servidor y otra denominada servidor de datos que proporciona al servidor los datos necesarios para procesar el servicio que solicita el cliente.
 - Arquitectura de N capas: Es como la arquitectura de 3 capas solo que usando N servidores que brindan un servicio en específico al servidor cada uno. 
 
+### Modelo de ejecución en cliente
+
+Este modelo implica que la mayor parte de la carga de procesamiento ocurre en el dispositivo (cliente). Aquí, los datos y la lógica se ejecutan localmente. Las tecnologías involucradas incluyen lenguajes como JavaScript, HTML y CSS, que permiten la interacción directa con el usuario del navegador. Un ejemplo típico es cuando un sitio web responde a la interacción del usuario sin necesidad de comunicarse constantemente con el servidor, como ocurre con animaciones o validaciones de formularios en tiempo real.
+
+#### Ventajas
+- Menor latencia: Las acciones del usuario no requieren enviar solicitudes al servidor, lo cual se traduce en una reducción del tiempo de espera.
+- Experiencias interactivas: Las aplicaciones pueden reaccionar rápidamente a los eventos del usuario, lo que mejora la usabilidad.
+
+#### Desventajas
+- Limitado por el dispositivo: La capacidad de procesamiento depende del hardware del cliente, que puede ser menos potente que un servidor dedicado.
 
 
+### Modelo de ejecución en servidor
 
-### Ventajas e inconvenientes
+En este modelo el servidor realiza la mayor parte del procesamiento. El cliente envía solicitudes y recibe las respuestas procesadas por el servidor, que puede encargarse de la gestión de bases de datos, procesamiento de la lógica y almacenamiento. Varios ejemplos pueden ser aplicaciones web que dependen de consultas a bases de datos o sistemas que manejan grandes cantidades de información en segundo plano, como Facebook o Netflix, donde el contenido y las solicitudes se gestionan desde servidores remotos
+
+#### Ventajas
+- Mayor capacidad de procesamiento: Los servidores están diseñados para manejar múltiples peticiones a la vez y procesar grandes volúmenes de datos, ofreciendo más rendimiento que los dispositivos clientes.
+- Seguridad y centralización: Los datos sensibles pueden gestionarse y protegerse mejor cuando están almacenados y procesados en servidores, lo que facilita la administración.
+
+#### Desventajas
+- Dependencia del servidor: Si el servidor falla, todos los clientes que dependen de él no podrán acceder al servicio.
+- Latencia: Cada vez que el cliente necesita algo, debe esperar a que el servidor procese la solicitud, lo que puede aumentar los tiempos de respuesta.
 
 ### Tabla comparativa de ambos modelos
 
@@ -62,4 +81,7 @@ Para evitar problemas de compatibilidad, se deben hacer pruebas en varios navega
 - [How to Handle JavaScript Cross-Browser Compatibility issues](https://blog.pixelfreestudio.com/how-to-handle-javascript-cross-browser-compatibility-issues/https://blog.pixelfreestudio.com/how-to-handle-javascript-cross-browser-compatibility-issues/)
 - [Cross-Browser Compatibility Testing](https://www.freecodecamp.org/news/cross-browser-compatibility-testing-best-practices-for-web-developers/)
 - [Handling common HTML and CSS problems](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS)
+- [Arquitectura cliente servidor: qué es, tipos y ejemplos](https://www.arsys.es/blog/todo-sobre-la-arquitectura-cliente-servidor)
+- [¿Qué es el modelo cliente-servidor? Pros y contras](https://www.ionos.mx/digitalguide/servidores/know-how/modelo-cliente-servidor/)
+- [Cliente-servidor](https://es.wikipedia.org/wiki/Cliente-servidor)
 - 
