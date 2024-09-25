@@ -8,7 +8,9 @@ Esta aplicación irá sobre todo enfocada a músicos, productores y disqueras in
 
 # 3. Análisis de mercado
 
-![Gráfico mercado streaming](./imagenes/grafico%20mercado%20plataformas%20digitales%20musica.png)
+<img src="imagenes/grafico%20de%20mercado%20plataformas%20digitales%20musica.png" alt="Gráfico mercado plataformas digitales" width="600" height="400">
+
+Como se puede ver en este gráfico, en la actualidad el 80% del mercado lo tiene dominado Spotify, mientras que Yt Music y otros varían desde el 1.5% hasta el 6.9%. La propuesta de todas las plataformas es más o menos la misma, spotify fue el pionero en realizar todos estos cambios y ese entorno sólido con la industria, pero ninguna de las plataformas integran sistemas de grupos y comunidades más enfocadas al artista independiente, por lo que nuestra aplicación podría ocupar un trozo importante del mercado debido a que casi el 60% de los artistas que suben activamente contenido a Spotify no están firmados por ninguna discográfica, siendo este colectivo al que apunta directamente nuestra aplicación.
 
 
 
