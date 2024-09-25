@@ -8,7 +8,8 @@ Esta aplicación irá sobre todo enfocada a músicos, productores y disqueras in
 
 # 3. Análisis de mercado
 
-![Gráfico mercado streaming](./imagenes/grafico_mercado.png)
+![Gráfico mercado streaming](./imagenes/grafico%20mercado%20plataformas%20digitales%20musica.png)
+
 
 
 # 4. Funcionalidades clave
