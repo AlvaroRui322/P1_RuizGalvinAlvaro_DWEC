@@ -48,7 +48,55 @@ En este modelo el servidor realiza la mayor parte del procesamiento. El cliente 
 
 ## 6. Lenguajes de programación web
 
-Los lenguajes de programación más utilizados en el desarrollo web 
+Los lenguajes de programación más utilizados en el desarrollo web son principalmente JavaScript, Python, PHP y Ruby. Ahora pasaré a explicar algunas de las ventajas y desventajas de cada lenguaje:
+
+### JavaScript
+
+#### Ventajas
+- Es el lenguaje estándar para el desarrollo frontend. Funciona en todos los navegadores web sin necesidad de plugins adicionales.
+- Permite desarrollar aplicaciones dinámicas e interactivas en el lado del cliente.
+- Tiene muchísimos frameworks y librerías como React, Vue o Angular.
+- Es versátil, ya que también puede usarse para el desarrollo backend con Node.js por ejemplo.
+
+#### Desventajas
+- A pesar de su popularidad, puede ser complicado de depurar por su naturaleza asincrónica.
+- Problemas de compatibilidad entre navegadores.
+
+### Python
+
+#### Ventajas
+- Simplicidad y legibilidad del código, lo que facilita el desarrollo rápido y hace que sea popular para el backend con frameworks como Django y Flask.
+- Excelente para el desarrollo de prototipos y aplicaciones que requieren integraciones con bases de datos o análisis de datos.
+Gran comunidad y extensa biblioteca estándar.
+
+#### Desventajas:
+- No es comúnmente utilizado en el frontend web, por lo que suele estar limitado al backend.
+- La velocidad de ejecución es menor en comparación con lenguajes como JavaScript o C++​
+
+### PHP
+
+#### Ventajas:
+
+- Popular para el desarrollo de sitios web dinámicos y de gestión de contenidos (ej. WordPress, Drupal).
+- Es fácil de aprender y tiene una comunidad enorme, además de ser gratuito y de código abierto.
+- Se integra fácilmente con bases de datos y servidores web.
+
+#### Desventajas:
+
+- Aunque es rápido, su rendimiento puede verse afectado en aplicaciones a gran escala.
+
+### Ruby
+
+#### Ventajas
+
+- La sintaxis es clara y fácil de leer, lo que fomenta el desarrollo ágil.
+- Tiene un enfoque en la simplicidad y productividad.
+
+#### Desventajas
+
+- Rendimiento más bajo que otros lenguajes como Python o PHP, lo que puede ser una desventaja en aplicaciones de alto tráfico.
+- Los errores tipográficos pueden ser difíciles de detectar, causando problemas en el tiempo de ejecución.
+
 ## 7. Tecnologías a utilizar
 
 ### Lenguajes a utilizar
