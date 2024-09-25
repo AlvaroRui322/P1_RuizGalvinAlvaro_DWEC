@@ -48,12 +48,27 @@ En este modelo el servidor realiza la mayor parte del procesamiento. El cliente 
 
 ## 6. Lenguajes de programación web
 
+Los lenguajes de programación más utilizados en el desarrollo web 
 ## 7. Tecnologías a utilizar
 
+### Lenguajes a utilizar
 
+Para el desarrollo de mi aplicación utilizaré:
+- HTML5 para crear la estructura de la aplicación web.
+- CSS3 para definir el diseño y la presentación visual de mi aplicación.
+- JavaScript para programar la lógica de la aplicación.
 
-### 7.1 Lenguajes de programación y lenguajes de marcas
-Para llevar a cabo este proyecto tengo planteada la utilización de HTML5, CSS3 y JavaScript como lenguajes principales
+### Frameworks
+
+Por lo que investigué (ya que nunca vi ninguno de los frameworks que voy a mencionar) los frameworks más usados para el desarrollo web en JavaScript son React.js para el Frontend y Node.js para el Backend.
+
+- React.js lo usaría como dije anteriormente para el desarrollo en frontend. React facilita la creación de componentes reutilizables y ofrece una excelente gestión del estado de la aplicación. En este curso daremos React, por lo que en un 99,9% usaré este framework de Javascript para el frontend.
+- Node.js lo usaré en el lado del servidor. Por lo visto node es un entorno que permite ejecutar JavaScript en el servidor, por lo que eso significa que unificaría el desarrollo de la aplicación tanto en cliente como en servidor usando un único lenguaje.
+
+### Herramientas de desarrollo 
+
+He optado por el uso de Visual Studio Code como herramienta debido a que es muy versátil para el desarrollo y ofrece una gran variedad de extensiones y funciones para facilitar el trabajo. Además para el control de versiones usaré git y github que ya lo hemos utilizado en otros años.
+
 
 ## 8. Compatibilidad en navegadores
 
@@ -84,4 +99,7 @@ Para evitar problemas de compatibilidad, se deben hacer pruebas en varios navega
 - [Arquitectura cliente servidor: qué es, tipos y ejemplos](https://www.arsys.es/blog/todo-sobre-la-arquitectura-cliente-servidor)
 - [¿Qué es el modelo cliente-servidor? Pros y contras](https://www.ionos.mx/digitalguide/servidores/know-how/modelo-cliente-servidor/)
 - [Cliente-servidor](https://es.wikipedia.org/wiki/Cliente-servidor)
-- 
+- [¿Qué tendencias en Desarrollo Web veremos en el 2023?](https://blog.impulse.lat/que-tendencias-en-desarrollo-web-veremos-en-el-2023)
+- [Tecnologías Web Más Populares](https://wheelhub.es/blog/tipos-de-tecnologia-web/)
+- [Descripción de las tecnologías JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/JavaScript_technologies_overview)
+- [10 motivos para usar Node.js para desarrollar aplicaciones web](https://www.universia.net/es/actualidad/habilidades/10-motivos-usar-nodejs-desarrollar-aplicaciones-web-1154033.html)
